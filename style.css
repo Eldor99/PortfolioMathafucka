@@ -6,6 +6,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
 
+body{
+    background-color: #3a3d40;
+}
+
 /* Navbar */
 
 nav{
@@ -102,11 +106,11 @@ img{
     padding: 0;
 }
 
-.project-tile{
+a{
     width: 400px;
 }
 
-.project-tile p{
+a p{
     color: white !important;
     background-color: #3a3d40;
     margin: 0;
@@ -114,3 +118,42 @@ img{
     bottom: 9px;
     padding: 10px 20px;
 }
+
+/* COntacts */
+#contacts{
+    background-color: #3a3d40;
+    /* margin-bottom: 5em !important; */
+    margin: 0;
+    text-align: center;
+    /* position: relative; */
+    /* bottom: 10em; */
+    color: white;
+    height: 30vh;
+}
+
+#contacts h2{
+    font-size: 3em;
+}
+
+#contacts p{
+    color: white;
+    font-size: 20px;
+}
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+#contacts ul li{
+    margin: 2em 2em;
+}
+
+/* Mobile */
+@media only screen and (max-width: 720px) {
+    body {
+      background-color: lightblue;
+    }
+  }
